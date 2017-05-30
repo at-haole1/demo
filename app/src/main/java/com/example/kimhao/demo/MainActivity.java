@@ -18,11 +18,9 @@ public class MainActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-
-                    String   d = "Bi sai roi do";
-                    mTextMessage.setText(d);
                     int a = 10;
-                    mTextMessage.setText(""+a);
+                    int c =5;
+                    mTextMessage.setText(""+(a+c));
                     return true;
                 case R.id.navigation_dashboard:
                     mTextMessage.setText(R.string.title_dashboard);
